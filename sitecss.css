@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 77%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color:rgb(30, 28, 28);
+    padding: 20px;
+}
+
+.logo{
+    float: left;
+    margin-top: 7px;
+   
+}
+.logo img{
+    width: 55%;
+}
+.navbar .list{
+    float: right;
+   
+
+}
+.list ul{
+    list-style-type:none ;
+    margin-top: 10px;
+}
+.list ul li{
+    float: left;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.list a{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.portfolio{
+    background-color:rgb(248, 249, 250);
+    text-align: center;
+}
+
+.portfolio-item{
+    background-color: white;
+    float: left;
+    width: 31%;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 10px;
+
+}
+.portfolio img {
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.portfolio h2{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:700;
+}
+.portfolio p{
+    font-style: italic;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+
+.portfolio-cap h3{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 700;
+}
